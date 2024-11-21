@@ -1,0 +1,40 @@
+/* Styling for Contact Form */
+h2.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #4e73df;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on button */
+  button:hover {
+    background-color: #2e59d9;
+  }
+  

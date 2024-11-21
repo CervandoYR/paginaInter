@@ -1,0 +1,61 @@
+/* Global Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for Cards */
+  .plan-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px); /* Elevates the card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhances the shadow */
+  }
+  
+  .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    background-color: #4e73df;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on button */
+  button:hover {
+    background-color: #2e59d9;
+  }
+  
+  /* Responsive for small screens */
+  @media (max-width: 767px) {
+    .plan-card {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+/* Estilos generales para las imágenes del carrusel */
+.carousel-item img {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  object-fit: cover;
+}
+
+/* Estilos específicos para cada imagen */
+.imagen1 {
+  width: 100%;
+  /* Tamaño estático en píxeles */
+
+  height: 50vh;
+  ;
+}
+
+.imagen2 {
+  width: 100%;
+  height: 50vh;
+}

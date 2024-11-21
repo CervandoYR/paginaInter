@@ -1,0 +1,19 @@
+/* Previene el desplazamiento horizontal */
+body {
+    overflow-x: hidden;
+    margin: 0; /* Asegura que no haya márgenes innecesarios que causen desplazamiento */
+    padding: 0; /* Asegura que no haya padding extra */
+  }
+  
+  /* Asegúrate de que los contenedores principales no se desborden */
+  .container, .container-fluid {
+    max-width: 100%;
+    padding-left: 15px;  /* Evita el desbordamiento en pequeños dispositivos */
+    padding-right: 15px;
+  }
+  
+  /* Verificar que los elementos de la página no se desborden */
+  * {
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,34 @@
+.navbar-toggler {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: end;
+    width: auto;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28155, 155, 155, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    background-color: rgb(33, 37, 41);
+    
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000; /* Asegura que el menú se muestre encima de otros elementos */
+  }
+  
+  .nav-link {
+    padding: 8px 0;
+    color: #f5f5f5;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Alinea los enlaces dentro del collapse */
+    text-align: center;
+  }
+  
