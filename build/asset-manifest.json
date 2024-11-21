@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paginaInter/build/static/css/main.94a9f125.css",
+    "main.js": "/paginaInter/build/static/js/main.b46a04ad.js",
+    "static/js/453.011749f5.chunk.js": "/paginaInter/build/static/js/453.011749f5.chunk.js",
+    "index.html": "/paginaInter/build/index.html",
+    "main.94a9f125.css.map": "/paginaInter/build/static/css/main.94a9f125.css.map",
+    "main.b46a04ad.js.map": "/paginaInter/build/static/js/main.b46a04ad.js.map",
+    "453.011749f5.chunk.js.map": "/paginaInter/build/static/js/453.011749f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94a9f125.css",
+    "static/js/main.b46a04ad.js"
+  ]
+}
